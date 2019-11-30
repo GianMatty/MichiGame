@@ -1,0 +1,25 @@
+.cell{
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  font-size: 5em;
+  font-family: sans-serif;
+  border: 1px solid blue;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:hover{
+  background-color: #c1cdcd;
+  cursor: pointer;
+}
+
+.vl{
+  border-right: 3px solid black;
+}
+
+.hl{
+  border-bottom: 3px solid black;
+}
